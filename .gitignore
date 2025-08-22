@@ -1,7 +1,12 @@
-data/ 
-sims/ 
-prs/ 
-models/ 
-logs/ 
-__pycache__/ 
-*.pyc 
+# Ignorar archivos pesados y temporales
+*.vcf
+*.vcf.gz
+*.sscore
+*.pkl
+*.log
+*.tmp
+.env
+__pycache__/
+.ipynb_checkpoints/
+data/
+results/
